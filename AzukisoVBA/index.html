@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  	<head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    	<title>Unity WebGL Player | AzukisoVBA</title>
+    	<script src="Build/UnityLoader.js"></script>
+    	<script>
+    		var gameInstance = UnityLoader.instantiate("gameContainer", "Build/release.json");
+    	</script>
+  	</head>
+  	<body>
+		<div style="margin: 50px;">
+			<div id="gameContainer" style="width: 960px; height: 600px; margin: auto;"></div>
+			<div style="margin: 50px;">
+				元ネタ: <a href="https://www.youtube.com/watch?v=hSf3DaDlIk4">https://www.youtube.com/watch?v=hSf3DaDlIk4</a><br>
+				フォント: <a href="http://azukifont.com/">あずきフォント</a><br>
+				<br>
+       			動きは概ね元ネタに準拠しているはずです。(ルーレットの動きが速いですが。)<br>
+    		    編集ボタンは押すと入力エリアが出現します。<br>
+    		    入力エリアに書いた単語(1行単位)が各スロットに表示されます。<br>
+    		    空行を区切りとして左真ん中右のデータとなります。<br>
+    		    (デフォルトで入力されているデータを参考にしてください。)<br>
+    		    入力後にもう1度編集ボタンを押すと入力データが適用されて使用できます。<br>
+   			</div>
+		</div>
+	</body>
+</html>
